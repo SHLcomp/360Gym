@@ -58,14 +58,14 @@ body {
   font-size: 3rem;
 }
 .cta1 {
-  background: #ffffffcd;
+  background: var(--cta1-bg);
   color: #000;
   padding: 5px 20px;
   border-radius: 20px;
   cursor: pointer;
 }
 .cta2 {
-  background: #ffffff00;
+  background: var(--cta2-bg);
   color: #fff;
   padding: 5px 20px;
   border-radius: 20px;
@@ -83,6 +83,8 @@ body {
   --headlines-ff: "Sarpanch";
   --ff: "Scope-One";
   --main-bg: #0d0e0f;
+  --cta1-bg: #ffffffcd;
+  --cta2-bg: #ffffff00;
   --main-color: ;
-  --accent-color: rgb(28, 77, 237);
+  --accent-color: rgb(237, 185, 28);
 }
