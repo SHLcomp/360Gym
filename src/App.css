@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--main-bg);
+  font-family: var(--ff) !important;
+  color: white !important;
+  overflow-x: hidden !important;
+}
+
+/* shared styles */
+.a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.noise {
+  position: relative;
+  z-index: 0;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://images.pexels.com/photos/29334477/pexels-photo-29334477.jpeg"); /*water splashes 2*/
+    background: url("https://images.pexels.com/photos/5052331/pexels-photo-5052331.jpeg"); /*water splashes*/
+    background: url("https://images.pexels.com/photos/2748716/pexels-photo-2748716.jpeg"); /*rain drops 2*/
+    background: url("https://images.pexels.com/photos/268874/pexels-photo-268874.jpeg"); /*rain drops*/
+    background: url("https://images.pexels.com/photos/758532/pexels-photo-758532.jpeg"); /*workplace*/
+    background: url("https://images.pexels.com/photos/1083822/pexels-photo-1083822.jpeg"); /*flowers*/
+
+    opacity: 0.05;
+    background-size: cover;
+    z-index: -1;
+  }
+}
+.eyebrow {
+  color: #929292;
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-family: var(--titles-ff) !important;
+  /* font-size: 1.5rem; */
+}
+.headline {
+  font-family: var(--headlines-ff);
+  font-size: 3rem;
+}
+.cta1 {
+  background: #ffffffcd;
+  color: #000;
+  padding: 5px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.cta2 {
+  background: #ffffff00;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+
+  border: solid 1px #fff;
+  background: rgba(255, 255, 255, 0.111);
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+/* root variables */
+:root {
+  --headlines-ff: "Sarpanch";
+  --ff: "Scope-One";
+  --main-bg: #000;
+  --main-color: ;
+  --accent-color: rgb(28, 77, 237);
+}
