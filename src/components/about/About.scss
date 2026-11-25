@@ -1,6 +1,5 @@
 
 .about{
-  background: #0d0e0f;
   color: #f3f1ee;
   padding: 120px 8%;
   overflow: hidden;
@@ -131,7 +130,7 @@
 
 // Responsive
 @media (max-width: 900px) {
-  .why {
+  .about {
     padding: 90px 6%;
 
     .heading {
@@ -152,7 +151,7 @@
 }
 
 @media (max-width: 550px) {
-  .why {
+  .about {
     padding: 75px 5%;
 
     .heading {
