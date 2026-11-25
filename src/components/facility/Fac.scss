@@ -1,9 +1,17 @@
 .fac {
   padding: 120px 8%;
   overflow: hidden;
+  
 
   .heading {
-    margin-bottom: 35px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
 
     .eyebrow {
       text-transform: uppercase;
@@ -13,7 +21,7 @@
     }
 
     .title {
-      color: var(--accent-color);
+    //   color: var(--accent-color);
       font-size: clamp(2rem, 3vw, 3.5rem);
       line-height: 1.1;
     }

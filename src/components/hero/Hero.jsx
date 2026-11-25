@@ -110,7 +110,7 @@ const Hero = () => {
           </h1>
 
           <h1 className="headline" ref={titleRef2}>
-            Limits
+            Limits<span style={{ color: "var(--accent-color)" }}>.</span>
           </h1>
         </div>
         <div className="info" ref={inforef}>
